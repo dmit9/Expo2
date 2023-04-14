@@ -2,10 +2,10 @@ import React from 'react';
 import { StyleSheet, Text, Pressable} from 'react-native';
 
 
-export default function ListItem({el}) {
+export default function ListItem({el, deleteHandler}) {
 
     return (
-        <Pressable>
+        <Pressable onPress={() => deleteHandler(el.key)}>
             <Text style={styles.text}>{el.text}</Text>
         </Pressable>
     );
