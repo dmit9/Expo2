@@ -23,7 +23,7 @@ export default function App() {
   }
   const deleteHandler = (key) => {
       setListOfItems((list) => {
-          return list.filter(listOfItems => listOfItems.key != key)
+          return list.filter(listOfItems => listOfItems.key !== key)
       })
   }
   return (
@@ -42,9 +42,7 @@ export default function App() {
 const styles = StyleSheet.create({
           container: {
              flex: 1,
-              marginTop: StatusBar.currentHeight || 0,
+             marginTop: StatusBar.currentHeight || 0,
         },
 });
-          /*<ListItem el={item}/>*/
-/*
-<Text>{item.text}</Text>*/
+

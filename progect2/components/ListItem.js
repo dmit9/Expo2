@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         color: 'blue',
         fontWeight: 'bold',
         textAlign: 'center',
-        backgroundColor: '#fafafa',
+        backgroundColor: 'rgba(250,250,250,0.74)',
         borderColor: 'black',
         borderWidth: 1,
         marginTop: 20,
