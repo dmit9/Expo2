@@ -16,7 +16,7 @@ export default function Navigate() {
                 {
                         title: 'Главная стр.',
                         headerStyle: {"backgroundColor": '#eb5d3d', "height": 100},
-                        headerTitleStyle: {fontWeight: 'light'}
+                        headerTitleStyle: {fontWeight: '200'}
                     }
                 } />
             <Stack.Screen
