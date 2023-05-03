@@ -14,25 +14,25 @@ export default function Form({addArticle}) {
                         <TextInput
                             style={styles.input}
                             value={props.values.name}
-                                   placeholder='Введите назв.'
-                                   onChangeText={props.handleChange('name')}/>
+                            placeholder='Введите назв.'
+                            onChangeText={props.handleChange('name')}/>
                         <TextInput
                             style={styles.input}
                             value={props.values.anons}
-                                   multiline
-                                   placeholder='Введите анонс.'
-                                   onChangeText={props.handleChange('anons')}/>
+                            multiline
+                            placeholder='Введите анонс.'
+                            onChangeText={props.handleChange('anons')}/>
                         <TextInput
                             style={styles.input}
                             value={props.values.full}
-                                   multiline
-                                   placeholder='Введите статью.'
-                                   onChangeText={props.handleChange('full')}/>
+                            multiline
+                            placeholder='Введите статью.'
+                            onChangeText={props.handleChange('full')}/>
                         <TextInput
                             style={styles.input}
                             value={props.values.img}
-                                   placeholder='Укажите фото.'
-                                   onChangeText={props.handleChange('img')}/>
+                            placeholder='Укажите фото.'
+                            onChangeText={props.handleChange('img')}/>
                         <Button title='Добавить' onPress={props.handleSubmit}/>
                     </View>
                 )}
